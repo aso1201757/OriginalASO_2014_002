@@ -11,12 +11,11 @@
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="226dp"
-            android:layout_height="326dp"
             android:layout_column="0"
-            android:layout_gravity="center_horizontal|top"
+            android:layout_gravity="left|top"
             android:layout_row="0"
-            android:src="@drawable/ima" />
+            android:src="@drawable/kokomin" />
+
     </GridLayout>
 
     <TextView

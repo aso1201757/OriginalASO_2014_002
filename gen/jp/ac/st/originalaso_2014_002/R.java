@@ -24,12 +24,13 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
         public static final int ima=0x7f020001;
         public static final int imagel=0x7f020002;
+        public static final int kokomin=0x7f020003;
     }
     public static final class id {
         public static final int action_settings=0x7f08000b;
-        public static final int btnDELETE=0x7f08000a;
         public static final int btnback=0x7f080009;
         public static final int btnch=0x7f080005;
+        public static final int btndelete=0x7f08000a;
         public static final int btnment=0x7f080003;
         public static final int btntou=0x7f080004;
         public static final int editMsg=0x7f080002;

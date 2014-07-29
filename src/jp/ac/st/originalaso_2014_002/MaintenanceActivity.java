@@ -54,7 +54,7 @@ public class MaintenanceActivity extends Activity implements View.OnClickListene
 		// TODO 自動生成されたメソッド・スタブ
 		super.onResume();
 
-		Button btnD = (Button)findViewById(R.id.btnDELETE);
+		Button btnD = (Button)findViewById(R.id.btndelete);
 		Button btnB = (Button)findViewById(R.id.btnback);
 		ListView lstH = (ListView)findViewById(R.id.lsthitokoto);
 
@@ -104,7 +104,7 @@ public class MaintenanceActivity extends Activity implements View.OnClickListene
 	@Override
 	public void onClick(View v) {
 		switch(v.getId()){
-			case R.id.btnDELETE:
+			case R.id.btndelete:
 	
 				if(this.selectedID != -1){
 					this.deleteFromHitokoto(this.selectedID);

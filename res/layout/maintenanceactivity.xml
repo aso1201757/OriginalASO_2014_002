@@ -23,7 +23,7 @@
         android:text="削除" />
 
     <Button
-        android:id="@+id/btnDELETE"
+        android:id="@+id/btndelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="戻る" />
